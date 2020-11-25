@@ -25,7 +25,7 @@ SECRET_KEY = '8&!d5yx+^f06!n65&vske!+p$m$0k(y=n%xs%wxrr(5=@hetcs'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
