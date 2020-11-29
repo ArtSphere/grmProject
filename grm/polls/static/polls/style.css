@@ -1,0 +1,24 @@
+li a {
+    color: Black;
+}
+
+body {
+  width: 1200px;
+  height: 1200px;
+  display: block;
+  position: relative;
+  margin: 0 auto;
+  z-index: 0;
+}
+
+body::after {
+    background: url("images/alpen1.gif");
+    content: "";
+    opacity: 0.5;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    z-index: -1;
+}
