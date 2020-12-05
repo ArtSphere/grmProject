@@ -13,12 +13,14 @@
                 Some real cool sample data
             </span>
         </nav>
+        {% if error_message %}<p><strong>{{ error_message }}</strong></p>{% endif %}
        <div class="container">
             <h2>user : {{ user }}</h2>
            <h2>password : {{ password }}</h2>
-           Show the Data
+           Show the Data<br>
 
         </div>
+           <img src="data:image/png;base64,{{image_base64}}" alt="Image does not show correctly :-( " width=auto height=auto />
 
     </body>
 </html>
