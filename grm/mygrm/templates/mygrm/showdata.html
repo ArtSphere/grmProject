@@ -10,7 +10,7 @@
         <nav class="navbar navbar-dark bg-dark">
             <a class="navbar-brand" href="#">My Garmin Data</a>
             <span class="navbar-text">
-                Some real cool sample data
+                <a href="{% url 'mygrm:index' %}">Back to Beginning</a>
             </span>
         </nav>
         {% if error_message %}<p><strong>{{ error_message }}</strong></p>{% endif %}
