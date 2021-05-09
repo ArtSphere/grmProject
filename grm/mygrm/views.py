@@ -44,7 +44,7 @@ def show_data(request):
     print("####client: ", client.get_full_name())
 
     try:
-        activities = client.get_activities(0, 1000)  # 0=start, 1=limit
+        activities = client.get_activities(0, 5000)  # 0=start, 1=limit
     except (
             GarminConnectConnectionError,
             GarminConnectAuthenticationError,
